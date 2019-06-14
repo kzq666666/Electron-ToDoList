@@ -1,0 +1,26 @@
+.close{
+  position: absolute;
+  right: 1rem;
+}
+.isFinished .custom-control-label::before{
+  border-color: #28a745 !important;
+  background:#28a745 !important
+}
+
+#setPage{
+  position: absolute;
+  width: 100%;
+  top: 5%;
+  
+}
+#setPage .close{
+   right: 2rem;
+}
+button:focus{
+  outline: 0;
+}
+
+.basicList{
+  max-height: 32rem;
+  overflow-x: scroll;
+}
